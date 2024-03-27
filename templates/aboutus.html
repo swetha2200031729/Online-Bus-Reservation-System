@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<body>
+    <header>
+        <h1>About Us</h1>
+            <link rel="stylesheet" href="{% static 'styles-aboutus.css' %}">
+
+    </header>
+    <main>
+        <section class="about">
+            <h2>Our Story</h2>
+            <p>Welcome to our bus reservation system! We are passionate about providing convenient and reliable bus booking services to travelers across the country.</p>
+            <p>Our mission is to make your journey comfortable, safe, and enjoyable. Whether you're planning a short commute or a long-distance trip, we've got you covered.</p>
+            <p>At our Bus Reservation Website, we're here to make your bus travel experience effortless and enjoyable. Our dedicated team is committed to providing you with a seamless booking process, extensive route options, and round-the-clock support.</p>
+
+<p>Why choose us? We prioritize your comfort and convenience, offering competitive prices and a user-friendly platform. Join thousands of satisfied travelers who rely on Bus Reservation Website for their bus reservations, and let us take you where you need to go.
+
+Thank you for choosing Bus Reservation Website. Let's make your next journey unforgettable!</p>
+        </section>
+        <section class="team">
+            <h2>Meet Our Team</h2>
+            <ul>
+                <li>Swetha - Founder & CEO</li>
+                <li>Sai- Operations Manager</li>
+                <li>Sree  - Customer Support</li>
+                <!-- Add more team members here -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Bus Reservation System. All rights reserved.</p>
+    </footer>
+    <script src="scripts-aboutus.js"></script>
+</body>
+{% endblock content %}

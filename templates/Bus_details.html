@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+{% for bus in bus_details_list %}
+<div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+
+                <div class="card-body">
+                  <p class="card-text">{{bus.bus_name}}</p>
+                    <p class="card-text">{{bus.bus_number}}</p>
+                    <p class="card-text">{{bus.ticket_pricing}}</p>
+                      <p class="card-text">{{bus.avaliable_date}}</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Book Ticket</button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+{% endfor %}
+{% endblock content %}

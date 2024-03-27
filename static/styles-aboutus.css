@@ -1,0 +1,52 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("businaboutus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: rgba(0, 116, 217, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* About section styles */
+.about {
+    margin-bottom: 30px;
+}
+
+/* Team section styles */
+.team {
+    font-style: italic;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+}
